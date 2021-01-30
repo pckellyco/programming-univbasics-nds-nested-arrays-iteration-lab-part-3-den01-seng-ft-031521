@@ -11,7 +11,7 @@ def join_nested_strings(src)
     row_idx += 1
     sub_array = src[row_idx]
     ele_idx = 0
-    while ele_idx < sub_array.length do
+    while ele_idx < sub_array.count do
       ele_idx += 1
       ele = sub_array[ele_idx]
       if ele.is_a? String 
