@@ -14,10 +14,10 @@ def join_nested_strings(src)
       ele = sub_array[ele_idx]
       if ele.is_a? String do
         words.push(ele)
-      end 
+      end
       ele_idx += 1
-    end
+    end 
     row_idx += 1
-  end
-  words.join(" ")
+    end
+  words.join(' ')
 end
