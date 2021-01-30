@@ -13,11 +13,11 @@ def join_nested_strings(src)
     row_idx += 1
     ele_idx = 0
     while ele_idx < sub_array.count do
-      ele_idx += 1
       ele = sub_array[ele_idx]
       if ele.is_a? String 
         words.push(ele)
       end
+      ele_idx += 1
     end
   end
   words.join(" ")
