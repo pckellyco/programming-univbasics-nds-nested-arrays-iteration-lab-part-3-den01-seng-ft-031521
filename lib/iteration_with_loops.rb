@@ -8,9 +8,8 @@ def join_nested_strings(src)
   words = []
   row_idx = 0
   while row_idx < src.length do
-    row_idx += 1
     sub_array = src[row_idx]
-    puts sub_array
+    row_idx += 1
     ele_idx = 0
     while ele_idx < sub_array.count do
       ele_idx += 1
