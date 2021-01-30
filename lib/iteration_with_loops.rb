@@ -10,6 +10,7 @@ def join_nested_strings(src)
   while row_idx < src.length do
     row_idx += 1
     sub_array = src[row_idx]
+    puts sub_array
     ele_idx = 0
     while ele_idx < sub_array.count do
       ele_idx += 1
