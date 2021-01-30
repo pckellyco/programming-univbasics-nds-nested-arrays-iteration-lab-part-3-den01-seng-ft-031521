@@ -9,11 +9,11 @@ def join_nested_strings(src)
   row_idx = 0
   while row_idx < src.length do
     row_idx += 1
-    sub_arrqy = src[row_idx]
+    sub_array = src[row_idx]
     ele_idx = 0
     while ele_idx < sub_array.length do
       ele_idx += 1
-      ele = sub_arrqy[ele_idx]
+      ele = sub_array[ele_idx]
       if ele.is_a? String 
         words.push(ele)
       end
