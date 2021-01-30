@@ -29,12 +29,13 @@ def join_nested_strings(src)
     sub_array =  src[row_idx]
     ele_idx = 0
     row_idx += 1
-  } while ele_idx < sub_array.length {
+   while ele_idx < sub_array.length {
     ele = sub_array[ele_idx]
     ele_idx += 1
     if ele.is_a? String {
       words.push(ele)
     }
   }
+  
   words.join(' ')
 end
